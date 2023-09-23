@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        //colas
+
+        function prox(arr, elem){
+            arr.push(elem); //agregar al final 
+            return arr.shift(); //eliminar 1ero
+              
+        }
+
+        var arr = [1,2,3,4,5];
+        console.log("antes " + JSON.stringify(arr)); //mostrar arr en consola
+        console.log(prox(arr, 6));
+        console.log("despues " + JSON.stringify(arr));
+        
+    </script>
+    
+</body>
+</html>
+
+
+   
